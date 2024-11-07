@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Groundwater Prediction</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #3aafa9; /* Same as AQI Prediction */
+        margin: 0;
+        padding: 0;
+        display: flex; /* Centering content vertically and horizontally */
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full height of the viewport */
+      }
+      .container {
+        text-align: center;
+        background-color: #17242a; /* Same background color as AQI Prediction */
+        padding: 30px;
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 6px 6px 10px;
+      }
+      h1 {
+        color: #cea134; /* Same header color */
+        margin-bottom: 35px;
+      }
+      label {
+        display: block;
+        font-size: 18px;
+        color: white;
+        margin-bottom: 10px;
+        text-align: left;
+        font-family: impact;
+      }
+      select,
+      input[type="text"] {
+        padding: 12px; /* Match padding with AQI Prediction */
+        font-size: 16px;
+        border: 2px solid #cccccc;
+        border-radius: 8px;
+        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+      }
+      button {
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #4caf50; /* Same button color */
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      button:hover {
+        background-color: #388e3c; /* Same hover color */
+      }
+      p {
+        text-align: center;
+        font-size: 16px;
+      }
+      p.error {
+        color: red;
+      }
+      .home-link {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 10px 20px;
+        background-color: #1976d2;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .home-link:hover {
+        background-color: #1565c0;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="{{ url_for('index') }}" class="home-link">Home</a>
+    <div class="container">
+      <h1>Groundwater Availability Prediction</h1>
+
+      {% if error %}
+      <p class="error">{{ error }}</p>
+      {% endif %}
+
+      <form action="/predict" method="POST">
+        <label for="state">Select State:</label>
+        <select name="state" id="state" required>
+          <option value="">-- Select State --</option>
+          {% for state in states %}
+          <option value="{{ state }}">{{ state }}</option>
+          {% endfor %}
+        </select>
+
+        <label for="district">Enter District:</label>
+        <input
+          type="text"
+          name="district"
+          id="district"
+          placeholder="Enter district name"
+          required
+        />
+
+        <button type="submit">Predict</button>
+      </form>
+    </div>
+  </body>
+</html>

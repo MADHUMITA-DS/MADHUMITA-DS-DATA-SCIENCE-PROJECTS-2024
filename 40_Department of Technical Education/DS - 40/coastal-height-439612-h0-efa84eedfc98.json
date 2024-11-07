@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "coastal-height-439612-h0",
+  "private_key_id": "efa84eedfc98bb056f66ab5b9e4d3ce355a38992",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIdNBFKYgw5EsN\nIOJ4rO/kfsP6xWOGdgOkKsxPSemHAD3QCeS7HJa4B8EewqJF9Q4KLoIa37ep7+bI\n+hytFlrZ3RTf33w+0GV/o2kpPwBYR/KD42KZK3q1MVkUIYb8Iwl/uS6hhCX+Fx/k\nFaCGD8A4AUdyZEK1EEerGNapzgDle3AU8tvdKO3zKF/iK0IWI11NmMQm6oxphiEu\n0moMG2H4/goCdZw1145m0O2RgeJa0U/Q6e0J57dP9/L/LtY7wymxwR/ly6s7Eylv\ntEkSPvgCZjBOW3FHlA9KhuUzrUFSxXdZdt/2OuEzxLqEkDPsIsQocvIuitIPpfRN\n3jp1CK4JAgMBAAECggEAANJfGt7QDMiYI4D5AgmjdMpYP1TufYSfqzKfDSF+cEE9\n/6EAFmGdnzouPn60b5j7lRXFDsXQA5r/f99r8qxeyaSFtg09KHzDjcG7vUw20iXU\nBq+4ncF3NVBIed6mplihF1bzq/yAs16g5ix4hf7WiOQ9yL2Z0Gg1WFbiZRElISEI\njPgjyztVxrOy/K1sEVK0Fz9rsish4KmhVrQdQ/wkN6V5xky5xeMa0Jc452VmIlY7\n1opfn031NfQqHcaW+F9wzsZGGUe7Gnq4gQOtzSHRVaPioJziy4GxBR2Yn4iU2ogm\nQ6IqwdPtgRznOoO2nz0JQFhkSe1IUpp7h70NmM/riQKBgQD5FiaRuDF0RI2v9auM\nCn3HPnwj8auW7TU98s7wumntDPLpAWWtog2McRtyuCK738im8GYqkC0XNcyqxj9p\n4sqiDX8iVcH5BHvQgLp0JLxvycKDFg1ocnS1FG4rpiDL5iB5OhHztDNPpKS6Uh5e\nf8YcgE9s7yT1sdTZ5Or/Ut+B8wKBgQDOBSCvHESmHP/8bbJ0ipgrYssNOYnfcp8F\nOBaPdTI3gZ3I659tCmCGYQdFiQsckY1B3cWrR09qMP9iUvFA3p0zleMkvKquM5Uj\n03yMX5SCYqxQotpZxMcwJuYnpIovH3XcqXb497CK2bHHlKTXDqw6WbWn4cqgILPB\nRC+Tjz8TEwKBgHF9Ki2SotW6tmPJp1OzJAO38I/f+LJXeb6z9p2wEbsz/ykyvcUS\n5OFsV3k5dHntSFrnhWU3M5QzqwDUOuhfsLuNMrPOJwbyiAdD37AzXLgCUWGwloNU\nQuCOYnP4yVCdlYYmcy96lzZeab+K0tNznCw4OfgELe7UC4sLxhZ3B+cJAoGBAJGT\nU/4IhoWudkADr5bkHBSEMaC9qKvIzY8di+uAz6QjJcBEppmhPIWX6FB9PunH+72w\nHK4jrH0H9F2g6DKDWyeJYUCjRCPl9RukpBx4qXLckJBGEu5durZOtlEK1k3n+Bud\nb6ELPKdQnmu9oCEKkC6HF3JyfQBbO0l0if3FubcbAoGBAOQ1qKue0uHA5rJJUpyO\nk661dV4oyquni0xPQc5gDf1EnBHjV6VnLbdfuwiFW2dMY42JZfMplA+jr++BiIdc\n9YS2UD0jIUQbKHv8qUOL1nvrDCIawb9fBWCXwePQmg9czYJxJJc9w5rW3DrTTpWB\nyeNInB95GLE0/J70bG0yBWJl\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-service-account@coastal-height-439612-h0.iam.gserviceaccount.com",
+  "client_id": "105931661594752070733",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-service-account%40coastal-height-439612-h0.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

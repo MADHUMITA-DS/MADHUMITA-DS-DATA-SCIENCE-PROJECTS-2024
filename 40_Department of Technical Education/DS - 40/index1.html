@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot</title>
+  <style>
+    /* Background image */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('file:///C:/Users/user/Downloads/btt.jpg'); /* Background image */
+      background-size: cover; /* Cover the entire background */
+      background-position: center; /* Center the image */
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 2em;
+      margin-top: 20px;
+      margin-left: 75px;
+      animation: fadeIn 2s ease-out;
+    }
+
+    /* Chatbot container styling */
+    .chatbot-container {
+      background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+      border: 2px solid #ff7e5f; /* Darker gradient color for border */
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 20px;
+      margin-left:100px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: slideIn 1s ease-out;
+    }
+
+    /* Hover effect */
+    .chatbot-container:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    iframe {
+      border: none;
+      width: 350px;
+      height: 430px;
+      border-radius: 8px;
+      transition: box-shadow 0.3s ease;
+    }
+
+    iframe:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Fade-in effect */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Slide-in effect for chatbot container */
+    @keyframes slideIn {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Chat with our Bot</h1>
+  
+  <!-- Chatbot container with dynamic effects -->
+  <div class="chatbot-container">
+    <iframe
+      allow="microphone;"
+      src="https://console.dialogflow.com/api-client/demo/embedded/790d6f21-6573-46b2-a6fd-c9bec16b97a1">
+    </iframe>
+  </div>
+</body>
+</html>
