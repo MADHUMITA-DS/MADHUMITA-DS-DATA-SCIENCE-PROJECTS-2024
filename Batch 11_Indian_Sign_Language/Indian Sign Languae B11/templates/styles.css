@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    background-color: #192b3e; /* Light background for better contrast */
+    font-family: 'Arial', sans-serif; /* Use a clean sans-serif font */
+}
+
+/* Instructions page container */
+#instructions-page {
+    transition: transform 0.3s ease-in-out; /* Smooth transform for hover effect */
+}
+
+/* Button styles */
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions for hover */
+}
+
+button:hover {
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Feedback message styles */
+#feedback {
+    font-weight: bold; /* Make feedback messages bold */
+}
+
+/* Responsive text styles */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 1.5rem; /* Smaller heading on mobile */
+    }
+
+    p {
+        font-size: 0.875rem; /* Smaller paragraph text on mobile */
+    }
+}
+
+@media (min-width: 640px) {
+    h1 {
+        font-size: 2rem; /* Larger heading on larger screens */
+    }
+
+    p {
+        font-size: 1rem; /* Standard paragraph text size */
+    }
+}
